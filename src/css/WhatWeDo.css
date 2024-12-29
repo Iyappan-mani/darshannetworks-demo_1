@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.conatinerWhatWeDo {
+    width: 84%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.dealingText {
+    font-family: "Barlow Condensed", serif;
+    font-size: 4vw;
+    color: #333;
+
+}
+
+.boxContainer {
+    /* width: 84%; */
+    align-self: center;
+    justify-self: center;
+    margin-top: 50px;
+
+    justify-content: space-between;
+}
+
+.box1 {
+    /* width: 30%; */
+    /* background-color: aqua; */
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+
+
+}
+
+.elementor-image-box-title{
+    font-size: 1.5  vw;
+    color: #333;
+    margin-top: 20PX;
+
+}
+.elementor-image-box-description{
+    font-family: "Barlow Condensed", serif;
+    font-size:  20px;
+    color: #3d3c3c;
+    width: 85%;
+    text-align: center;
+}
+
+.completeProjectContainer{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F7C59C;
+    padding-top: 30px;
+}
+
+.completeProjectContainer1{
+    margin-top: 100PX;
+    width: 100%;
+}
+.btn-small12{
+    /* background-image: linear-gradient(45deg, #ff6f00, #ff3f34);  */
+    background-color: transparent;
+    border-width: 2;
+    border-color: #0d0d0d;
+    color: #0d0d0d;
+    padding: 8px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    line-height: 1.2;
+    transition: background 0.3s ease;
+
+    margin-bottom: 50px;
+}
+
+.imageBox{
+    height: 80%;
+    width: 100%;
+}
+
+.bigImage{
+    height: 100%;
+    width: 100%;
+}

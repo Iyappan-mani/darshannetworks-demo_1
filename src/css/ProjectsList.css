@@ -1,0 +1,65 @@
+.ProductListContainer {
+    width: 100%;
+    background-color: #463B29;
+}
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.BrandContainer {
+    width: 100%;
+}
+
+.ProductListContainer1 {
+   
+    margin-top: 20px;
+    width: 100%;
+    background-color: #F7C59C;
+}
+
+.slideContainer {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+ 
+    background-color: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+}
+
+.titleName {
+    color: #463B29;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+
+.titleNameConatent {
+    color: #463B29;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.titleNameround {
+    height: 150px;
+    width: 150px;
+    background-color: #463B29;
+    border-radius: 100%;
+    position: absolute;
+    align-content: end;
+    padding: 40px;
+    top: -70px;
+    right: -70px;
+}
+
+/* .icon{
+    position: absolute;
+    bottom: 0;
+} */

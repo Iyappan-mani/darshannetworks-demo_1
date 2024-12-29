@@ -1,0 +1,88 @@
+.navbar {
+  font-weight: 500;
+}
+
+.nav-link-hover {
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  position: relative;
+}
+
+
+.nav-link-hover:hover {
+  color: #F7C59C;
+}
+
+
+.nav-link-hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F7C59C;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.nav-link-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar-custom {
+  border-bottom: 0.5px solid #ddd;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.btn-small {
+  margin-left: 10px;
+  background-color: white;
+  border-width: 0.5;
+  border-color: black;
+  color: black;
+  padding: 4px 20px;
+  font-size: 12px;
+  border-radius: 20px;
+  line-height: 1.2;
+  transition: background 0.3s ease;
+  margin-right: 20px;
+}
+
+/* Hover effect */
+.btn-small:hover {
+  background-color: #F7C59C;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+  /* Smooth animation */
+}
+
+/* Move the arrow to the right on hover */
+.btn-small:hover .arrow-icon {
+  transform: translateX(5px);
+  /* Move the arrow to the right */
+}
+
+.overallConatiner {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+@media (max-width: 768px) {
+  .overallConatiner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .overallConatiner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
