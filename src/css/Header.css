@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
 .navbar {
   font-weight: 500;
 }
 
+.textfontfamily{
+  font-family: "Playfair Display", serif;
+  color: aliceblue;
+
+  font-size: 2vw;
+}
 .nav-link-hover {
   transition: color 0.3s ease, border-bottom 0.3s ease;
   position: relative;
+  color: aliceblue;
 }
 
 
@@ -32,8 +41,8 @@
 }
 
 .navbar-custom {
-  border-bottom: 0.5px solid #ddd;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  /* border-bottom: 0.5px solid #ddd; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
 }
 
 .btn-small {
@@ -69,8 +78,8 @@
 }
 
 .overallConatiner {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 @media (max-width: 768px) {

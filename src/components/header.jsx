@@ -14,11 +14,11 @@ const Header = ({
 }) => {
 
   return (
-    <Navbar expand="lg" className="overallConatiner bg-white font-weight-bold navbar-custom sticky-top" style={{paddingTop:'10px',paddingBottom:'10px' , }}>
+    <Navbar expand="lg" className="overallConatiner bg-black font-weight-bold navbar-custom sticky-top" style={{paddingTop:'10px',paddingBottom:'10px' , }}>
       <Container fluid>
         <Navbar.Brand href="#" className="d-flex align-items-center">
           <img src={require('../Image/logo.png')} alt="Brand Logo" width="45px" height="auto" />
-          <Navbar.Brand className="m-lg-2 text-uppercase" href="#">Darshan indian wedding vendors</Navbar.Brand>
+          <Navbar.Brand className="textfontfamily m-lg-2 " style={{color:'#fff'}} href="#">Darshan Indian Wedding Vendors</Navbar.Brand>
         </Navbar.Brand>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">

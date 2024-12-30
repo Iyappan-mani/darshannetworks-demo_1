@@ -15,13 +15,13 @@ const ProjectsList = () => {
 
     const listOfImage = [
         {
-            image: require('../Image/img-37.png')
+            image: require('../Image/img-37.jpg')
         },
         {
-            image: require('../Image/img-38.png')
+            image: require('../Image/img-38.jpg')
         },
         {
-            image: require('../Image/img-39.png')
+            image: require('../Image/img-39.jpg')
         },
         {
             image: 'https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-40.png'
@@ -63,24 +63,71 @@ const ProjectsList = () => {
 
     return (
         <div style={{ marginTop: 100 }} className='w-100 '>
-            <div className='ProductListContainer'>
-                <p style={{ textAlign: 'center', color: '#F7C59C', paddingTop: 30 }}>How we complete you project?</p>
-                <h1 className='dealingText' style={{ textAlign: 'center', fontWeight: 'bold', color: '#F7C59C' }}>We do all this for you.</h1>
+            <div className='ProductListContainer pb-5'>
+                <p style={{ textAlign: 'center', color: '#ffff', paddingTop: 30 }}>LOOK AT OUR PRICING INFO FOR</p>
+                <h1 className='dealingText' style={{ textAlign: 'center', fontWeight: 'bold', paddingBottom: 40 }}>Venues & Vendors</h1>
                 <div style={{ paddingLeft: 30, paddingRight: 30, }} className='imageContainer justify-content-around mt-5 pb-5'>
-                    {/* {
-                        listOfImage?.map((item, index) => (
-                            <img width="300" height="450" style={{marginTop:10}} src={item.image} />
-
-                        ))
-                    } */}
-                    <Card/>
+                    <Card />
                 </div>
+
+                <div className="w-100 d-lg-flex d-sm-block justify-content-around p-4" style={{ position: "relative" }}>
+                    <h1
+                        className="dealingText44"
+                        style={{
+                            fontWeight: "bold",
+                            position: "absolute",
+                            bottom: "8%",
+                            left: "50%",
+                            transform: "translateX(-50%)", 
+                            zIndex: 1,
+                            color: "#fffff",
+                        }}
+                    >
+                        Every Detail Counts
+                    </h1>
+
+                    <h1
+                        className="dealingText44"
+                        style={{
+                            fontWeight: "bold",
+                            position: "absolute",
+                            bottom: "50%",
+                            left: "50%",
+                            transform: "translate(-50%, 50%)",
+                            zIndex: 0,
+                            color: "#fff",
+                            opacity: 0.2,
+                        }}
+                    >
+                        Venues & Vendors
+                    </h1>
+                    <div
+                        className="boxImage"
+                        style={{
+                            width: "45%",
+                            height: "40vw",
+                            borderRadius: 10,
+                            backgroundColor: "#f3f3f3", // Placeholder color for image background
+                        }}
+                    ></div>
+                    <div
+                        className="boxImage1"
+                        style={{
+                            width: "45%",
+                            height: "40vw",
+                            borderRadius: 10,
+                            backgroundColor: "#f3f3f3", // Placeholder color for image background
+                        }}
+                    ></div>
+                </div>
+
+
             </div>
 
 
 
 
-            <div className='BrandContainer'>
+            {/* <div className='BrandContainer'>
                 <p style={{ textAlign: 'center', paddingTop: 80 }}>awesome partner</p>
                 <h1 className='dealingText' style={{ textAlign: 'center', fontWeight: 'bold', color: '#463B29' }}>For materials</h1>
                 <div style={{ paddingLeft: 30, paddingRight: 30, }} className='imageContainer justify-content-evenly mt-5 pb-5'>
@@ -99,11 +146,11 @@ const ProjectsList = () => {
                         ))
                     }
                 </div>
-            </div>
+            </div> */}
 
             <div className='ProductListContainer1 pe-3 pe-lg-4 ps-lg-4 ps-3 pb-5'>
                 <p style={{ textAlign: 'center', color: '#463B29', paddingTop: 30 }}>Review</p>
-                <h1 className='dealingText' style={{marginBottom:50, textAlign: 'center', fontWeight: 'bold', color: '#463B29' }}>Word from wise</h1>
+                <h1 className='dealingText' style={{ marginBottom: 50, textAlign: 'center', fontWeight: 'bold', color: '#463B29' }}>Word from wise</h1>
                 <Swiper
                     modules={[Autoplay]}
                     loop
@@ -114,7 +161,7 @@ const ProjectsList = () => {
                         disableOnInteraction: false, // Autoplay won't stop after user interaction
                     }}
                     pagination={{ clickable: true }}
-                    
+
                     breakpoints={{
                         640: {
                             slidesPerView: 1, // Mobile view
@@ -130,7 +177,7 @@ const ProjectsList = () => {
                     <SwiperSlide style={{}}>
                         <div className='slideContainer w-100'>
                             <div className='titleNameround'>
-                            <FaQuoteRight color='#ffff'/>
+                                <FaQuoteRight color='#ffff' />
                             </div>
                             <p className='titleName'>Rayan kyle</p>
                             <p>NYC , USA</p>
@@ -138,9 +185,9 @@ const ProjectsList = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className='slideContainer'>
+                        <div className='slideContainer'>
                             <div className='titleNameround'>
-                            <FaQuoteRight color='#ffff'/>
+                                <FaQuoteRight color='#ffff' />
                             </div>
                             <p className='titleName'>Messi cook</p>
                             <p>WD , USA</p>
@@ -148,9 +195,9 @@ const ProjectsList = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className='slideContainer'>
+                        <div className='slideContainer'>
                             <div className='titleNameround'>
-                            <FaQuoteRight color='#ffff'/>
+                                <FaQuoteRight color='#ffff' />
                             </div>
                             <p className='titleName'>Sophia R</p>
                             <p>BST , USA</p>
@@ -158,16 +205,16 @@ const ProjectsList = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className='slideContainer'>
+                        <div className='slideContainer'>
                             <div className='titleNameround'>
-                            <FaQuoteRight color='#ffff'/>
+                                <FaQuoteRight color='#ffff' />
                             </div>
                             <p className='titleName'>R</p>
                             <p>BST , USA</p>
                             <p className='titleNameConatent'>EZ transformed our vision into a stunning reality! Their attention to detail and innovative designs exceeded all our expectations</p>
                         </div>
                     </SwiperSlide>
-              
+
                 </Swiper>
             </div>
         </div>
