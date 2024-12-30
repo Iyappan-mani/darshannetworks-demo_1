@@ -71,7 +71,7 @@ const ProjectsList = () => {
                 </div>
 
                 <div className="w-100 d-lg-flex d-sm-block justify-content-around p-4" style={{ position: "relative" }}>
-                    <h1
+                    {/* <h1
                         className="dealingText44"
                         style={{
                             fontWeight: "bold",
@@ -84,7 +84,7 @@ const ProjectsList = () => {
                         }}
                     >
                         Every Detail Counts
-                    </h1>
+                    </h1> */}
 
                     <h1
                         className="dealingText44"
