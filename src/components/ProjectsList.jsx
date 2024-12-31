@@ -63,7 +63,7 @@ const ProjectsList = () => {
 
     return (
         <div style={{ marginTop: 100 }} className='w-100 '>
-            <div className='ProductListContainer pb-5'>
+            <div className='ProductListContainer'>
                 <p style={{ textAlign: 'center', color: '#ffff', paddingTop: 30 }}>LOOK AT OUR PRICING INFO FOR</p>
                 <h1 className='dealingText' style={{ textAlign: 'center', fontWeight: 'bold', paddingBottom: 40 }}>Venues & Vendors</h1>
                 <div style={{ paddingLeft: 30, paddingRight: 30, }} className='imageContainer justify-content-around mt-5 pb-5'>
@@ -71,29 +71,32 @@ const ProjectsList = () => {
                 </div>
 
                 <div className="w-100 d-lg-flex d-sm-block justify-content-around p-4" style={{ position: "relative" }}>
-                    {/* <h1
+                    <h1
                         className="dealingText44"
                         style={{
-                            fontWeight: "bold",
+                            fontWeight: "normal",
                             position: "absolute",
-                            bottom: "8%",
-                            left: "50%",
-                            transform: "translateX(-50%)", 
+                            bottom: "-15%",
+                            left: "32%",
+                            width:'35%',
+                            textAlign:'center',
+                            // transform: "translateX(-50%),translateY(-50%) ", 
                             zIndex: 1,
                             color: "#fffff",
+                            
                         }}
                     >
-                        Every Detail Counts
-                    </h1> */}
+                     Follow Us On Instagram
+                    </h1>
 
                     <h1
                         className="dealingText44"
                         style={{
                             fontWeight: "bold",
                             position: "absolute",
-                            bottom: "50%",
-                            left: "50%",
-                            transform: "translate(-50%, 50%)",
+                            // bottom: "50%",
+                            // left: "50%",
+                            // transform: "translate(-50%, 50%)",
                             zIndex: 0,
                             color: "#fff",
                             opacity: 0.2,
